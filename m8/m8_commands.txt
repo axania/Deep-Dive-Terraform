@@ -7,7 +7,7 @@ consul agent -bootstrap -config-file="config/consul-config.hcl" -bind="127.0.0.1
 # First use the root token
 
 # Linux and MacOS
-export CONSUL_HTTP_TOKEN=SECRETID_VALUE
+export CONSUL_HTTP_TOKEN=42d4bdfd-15ea-4d49-2637-b95b41e52abc
 
 # Windows
 $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
