@@ -6,6 +6,10 @@ variable "region" {
   default = "ca-central-1"
 }
 
+variable "name" {
+  default = "globo-primary"
+}
+
 variable "consul_address" {
   type        = string
   description = "Address of Consul server"

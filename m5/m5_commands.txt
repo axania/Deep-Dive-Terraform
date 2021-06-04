@@ -6,7 +6,7 @@ cd consul
 # Let's set the Consul token to Mary Moe
 # Replace SECRETID_VALUE with Mary Moe's secret ID
 # Linux and MacOS
-export CONSUL_HTTP_TOKEN=SECRETID_VALUE
+export CONSUL_HTTP_TOKEN=92b9f7aa-5cb5-e7a0-2926-0ec7d0c74bda
 
 # Windows
 $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
