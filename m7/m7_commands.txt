@@ -7,13 +7,13 @@ consul agent -bootstrap -config-file="config/consul-config.hcl" -bind="127.0.0.1
 ## You can go into the ACL section of the Consul UI and grab it
 
 # Linux and MacOS
-export CONSUL_HTTP_TOKEN=SECRETID_VALUE
+export CONSUL_HTTP_TOKEN=4e16224d-7b19-9e41-a0f6-8b6d8573dc2a
 
 # Windows
 $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
 
 ### Try to run terraform init with a bad command switch
-terraform init -backend-confi="path=applications/state/globo-primary"
+terraform init -backend-config="path=applications/state/globo-primary"
 
 # Now let's go into the applications directory
 cd .\applications
